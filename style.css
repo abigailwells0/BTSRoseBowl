@@ -1,7 +1,7 @@
-/*html{
+html{
 	height:100%;
 	width:100%;
-}*/
+}
 
 body {
 	width: 100%;
@@ -159,13 +159,6 @@ img:hover {
 	display:flex;
 }
 
-.micdrop{
-	content: url("images/mic.png");
-	max-height:90%;
-	max-width:90%;
-	display:none;
-
-}
 
 .mots{
 	display:none;
