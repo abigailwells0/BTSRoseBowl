@@ -1,0 +1,114 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/bts.png" rel="icon" type="image/x-icon" />
+		<title>BTS Rosebowl D2</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body>
+		<div class="start" id="start">
+			<div class="row1">
+				<div class="bts contain-image center-content">
+					<img src="images/namjoon.jpg" class="contain-image center-content all-grey" id="namjoon" onclick="removeGrey1(this)">
+				</div>
+				<div class="bts contain-image center-content">
+					<img src="images/jin.jpg" class="contain-image center-content all-grey" id="jin" onclick="removeGrey2(this)">
+				</div>
+				<div class="bts contain-image center-content">
+					<img src="images/yoongi.jpg" class="contain-image center-content all-grey" id="yoongi" onclick="removeGrey3(this)">
+				</div>
+				<div class="bts contain-image center-content">
+					<img src="images/jhope.jpg" class="contain-image center-content all-grey" id="jhope" onclick="removeGrey4(this)">
+				</div>
+				<div class="bts contain-image center-content">
+					<img src="images/jimin.jpg" class="contain-image center-content all-grey" id="jimin" onclick="removeGrey5(this)">
+				</div>
+				<div class="bts contain-image center-content">
+					<img src="images/taehyung.jpg" class="contain-image center-content all-grey" id="taehyung" onclick="removeGrey6(this)">
+				</div>
+				<div class="bts contain-image center-content">
+					<img src="images/jungkook.jpg" class="contain-image center-content all-grey" id="jungkook" onclick="removeGrey7(this)">
+				</div>
+			</div>
+			<div class="row2 center-content">
+				<img src="images/bts.png" class="contain-image center-content">
+			</div>
+		</div>
+		<div class="display-none" id="main">
+			<div class="main-page">
+				<div class="column">
+					<div class="small-row light_pink">
+						<img src="images/JK.png" class="contain-image1 jk" id="euphoria" onclick="moveImage(this); playSound(this)">
+						<audio src="sounds/euphoria.mp3" type="audio/mp3" id="jungkook-sound"></audio>
+					</div>
+					<div class="small-row pink">
+						<div class="title3">
+							<img src="images/disko.png" class="contain-image">
+						</div>
+					</div>
+					<div class="big-row green">
+						<div class="donald center-content">
+							<img src="images/donald.png" class="contain-image urgent " id="urgent">
+						</div>
+					</div>
+					<div class="big-row">
+						<div class="gmail" onclick="gmailAppear(this)" id="gmail">
+							<img src="images/Gmail.jpg" class="contain-image">
+						</div>
+					</div>
+				</div>
+		
+				<div class="column">
+					<div class="small-row1">
+						<div class="title">
+							<img src="images/disko.png" class="contain-image">
+						</div>
+					</div>
+					<div class="small-row1 light_pink">
+						<div class="title2">
+							<img src="images/disko.png" class="contain-image">
+						</div> 
+					</div>
+					<div class="big-row">
+						<div class="video conatin-image" id="mv">
+							<iframe src="https://www.youtube.com/embed/XsX3ATc3FbA" class="mv" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="big-row green">
+						<!--<div class="reset"></div>-->
+					<div class="video2"></div>
+					</div>
+				</div>
+		 
+				<div class="column">
+					<div class="small-row1 light_pink"></div>
+					<div class="small-row1 pink"></div>
+					<div class="big-row green">
+						<div class="box1 blue">
+							<!--<div class="BWL">
+								<div class="micdrop" id="micdrop"></div>
+							</div>-->
+						</div>
+						<div class="box1 purple">
+							<div class="BWL">
+								<div class="mots" id="mots">
+									<img src="images/mots.png" class="contain-image" onclick="bwlAppear(this)">
+									<audio src="sounds/bwl.mp3" type="audio/mp3" class="boy" id="BWL-sound"></audio>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="big-row">
+						<img src="images/fanchants.png" class="contain-image fanchant" onclick="fanchantAppear(this); musicAppear(this)" id="fanchant">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	<script src="script.js"></script>
+		
+</body>
