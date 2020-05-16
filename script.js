@@ -1,7 +1,10 @@
+a = document.getElementById("gmail")
+b = document.getElementById("fanchant")
+
 function moveImage(elem){
 	document.getElementById("euphoria").classList.add("fly-forward1");
-	document.getElementById("gmail").classList.add("gmail");
-	document.getElementById("gmail").style.display="flex";
+	a.classList.add("gmail");
+	a.style.display="flex";
 }
 
 function playSound(elem){
@@ -11,8 +14,8 @@ function playSound(elem){
 
 function gmailAppear(elem){
 	document.getElementById("urgent").style.display="flex";
-	document.getElementById("fanchant").classList.add("fanchant");
-	document.getElementById("fanchant").style.display="flex";
+	b.classList.add("fanchant");
+	b.style.display="flex";
 	
 }
 
