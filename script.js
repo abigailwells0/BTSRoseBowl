@@ -23,6 +23,7 @@ function fanchantAppear(elem){
 	document.getElementById("mots").style.display="flex";
 }
 
+
 a=false
 b=false
 c=false
