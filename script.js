@@ -23,14 +23,15 @@ function fanchantAppear(elem){
 	document.getElementById("mots").style.display="flex";
 }
 
+function otAppear(elem){
+	document.getElementBYId("OT7").classList.remove
+}
+
 ot=0
 
 function checkRelavence(){
 	if (ot= 7){
-		document.getElementById("start").classList.remove("start");
-		document.getElementById("start").innerHTML="";
-		document.getElementById("main").style.display="flex";
-		console.log("pictures checked")
+		console.log("complete")
 		document.getElementById("OT7").classList.add
 	}
 	else (ot = >7){
