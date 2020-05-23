@@ -23,20 +23,6 @@ function fanchantAppear(elem){
 	document.getElementById("mots").style.display="flex";
 }
 
-function otAppear(elem){
-	document.getElementBYId("OT7").classList.remove
-}
-
-ot=0
-
-function checkRelavence(){
-	if (ot= 7){
-		console.log("complete")
-		document.getElementById("OT7").classList.add
-	}
-	else (ot = >7){
-		console.log("incomplete")
-	}
 
 
 a=false
@@ -52,45 +38,38 @@ function removeGrey1(elem){
 	document.getElementById("namjoon").classList.add("done");
 	a=true
 	checkPictures()
-	ot=ot+1
 }
 
 function removeGrey2(elem){
 	document.getElementById("jin").classList.remove("all-grey");
 	b=true
 	checkPictures()
-	ot=ot+1
 }
 
 function removeGrey3(elem){
 	document.getElementById("yoongi").classList.remove("all-grey");
 	c=true
 	checkPictures()
-	ot=ot+1
 }
 function removeGrey4(elem){
 	document.getElementById("jhope").classList.remove("all-grey");
 	d=true
 	checkPictures()
-	ot=ot+1
 }
 function removeGrey5(elem){
 	document.getElementById("jimin").classList.remove("all-grey");
 	e=true
 	checkPictures()
-	ot=ot+1
 }
 function removeGrey6(elem){
 	document.getElementById("taehyung").classList.remove("all-grey");
 	f=true
 	checkPictures()
-	ot=ot+1
 }
 function removeGrey7(elem){
 	document.getElementById("jungkook").classList.remove("all-grey");
 	g=true
 	checkPictures()
-	ot=ot+1
 }
 
 function checkPictures(elem){
